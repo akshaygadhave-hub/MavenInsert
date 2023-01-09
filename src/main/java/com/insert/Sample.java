@@ -28,7 +28,8 @@ public class Sample {
 		student.setCity("Chennai");
 		s.save(student); // save()- insert query fire
 		t.commit(); // without this, we cant save the data into db
-		System.out.println("Record is inserted successfully..");
+		System.out.println("nikhil 007");
+		
 	}
 
 }
