@@ -24,8 +24,8 @@ public class Sample {
 
 		// How to set the value into student object
 		Student student = new Student();
-		student.setName("Rohit");
-		student.setCity("Mumbai");
+		student.setName("Dhoni");
+		student.setCity("Chennai");
 		s.save(student); // save()- insert query fire
 		t.commit(); // without this, we cant save the data into db
 		System.out.println("Record is inserted successfully..");
